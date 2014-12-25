@@ -23,7 +23,7 @@ BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon use
 TARGET_GCC_VERSION_ARM := 4.8-sm
 
 # Validus optimizations
-# SYMMETRY
+SYMMETRY := true
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/oneplus/bacon/bluetooth
