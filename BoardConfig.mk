@@ -24,7 +24,7 @@ TARGET_GCC_VERSION_ARM := 4.9-sm
 
 # Validus optimizations
 SYMMETRY := true
-GRAPHITE_OPTS=true
+GRAPHITE_OPTS := true
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/oneplus/bacon/bluetooth
