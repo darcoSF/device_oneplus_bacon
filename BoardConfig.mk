@@ -27,6 +27,7 @@ SYMMETRY := true
 GRAPHITE_OPTS := true
 STRICT_ALIASING := true
 VALIDUS_CHANGELOG := true
+NO_BLOCK_OTA := true
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/oneplus/bacon/bluetooth
