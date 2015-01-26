@@ -29,15 +29,6 @@ STRICT_ALIASING := true
 VALIDUS_CHANGELOG := true
 NO_BLOCK_OTA := true
 
-# Enable dex-preoptimization to speed up first boot sequence
-ifeq ($(HOST_OS),linux)
-  ifeq ($(TARGET_BUILD_VARIANT),user)
-   ifeq ($(WITH_DEXPREOPT),)
-       WITH_DEXPREOPT := true
-   endif
-  endif
-endif
-
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
 
