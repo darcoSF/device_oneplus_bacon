@@ -129,9 +129,8 @@
         <item>25</item>
     </integer-array>
 
-    <!-- Boolean to enable HW keys disabler 
-    <bool name="config_hwKeysPref">true</bool>
-    --> 	
+    <!-- Boolean to enable HW keys disabler -->
+    <bool name="config_hwKeysPref">true</bool>	
 
     <!-- Doze mode -->
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
