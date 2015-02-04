@@ -25,8 +25,8 @@ TARGET_GCC_VERSION_ARM := 4.9-sm
 # Validus optimizations
 SYMMETRY := true
 GRAPHITE_OPTS := true
-STRICT_ALIASING := true
-#VALIDUS_CHANGELOG := true
+STRICT_ALIASING := false
+VALIDUS_CHANGELOG := false
 NO_BLOCK_OTA := false
 
 # Include an expanded selection of fonts
