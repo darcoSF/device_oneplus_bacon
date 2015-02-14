@@ -25,7 +25,7 @@ BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon use
 TARGET_GCC_VERSION_ARM := 4.9-linaro
 
 # Rom Toolchain
-TARGET_GCC_VERSION_EXP := 4.9
+## TARGET_GCC_VERSION_EXP := 4.9
 
 # Validus optimizations
 SYMMETRY := true
