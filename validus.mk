@@ -31,7 +31,7 @@ $(call inherit-product, vendor/validus/config/common_full_phone.mk)
 PRODUCT_NAME := validus_bacon
 PRODUCT_DEVICE := bacon
 PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_MODEL := One+
+PRODUCT_MODEL := OnePlusOne
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
@@ -42,3 +42,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=A0001 PRODUCT_NAME=bacon
 
 TARGET_CONTINUOUS_SPLASH_ENABLED := true
 
+# Synapse
+PRODUCT_COPY_FILES += \
+	device/oneplus/bacon/prebuilt/synapse.apk:system/app/synapse.apk
