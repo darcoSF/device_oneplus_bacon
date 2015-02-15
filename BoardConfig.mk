@@ -22,14 +22,14 @@ TARGET_KERNEL_CONFIG := mm_bacon_defconfig
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1 androidboot.selinux=permissive
 
 # Kernel Toolchain
-TARGET_GCC_VERSION_ARM := 4.9-linaro
+TARGET_GCC_VERSION_ARM := 4.9-sm
 
 # Rom Toolchain
 ## TARGET_GCC_VERSION_EXP := 4.9
 
 # Validus optimizations
 SYMMETRY := true
-GRAPHITE_OPTS := false
+GRAPHITE_OPTS := true
 STRICT_ALIASING := true
 VALIDUS_CHANGELOG := false
 NO_BLOCK_OTA := false
