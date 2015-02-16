@@ -34,6 +34,10 @@ STRICT_ALIASING := true
 VALIDUS_CHANGELOG := false
 NO_BLOCK_OTA := false
 
+
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/oneplus/bacon/releasetools
+
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
 
