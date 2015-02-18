@@ -32,7 +32,7 @@ SYMMETRY := true
 GRAPHITE_OPTS := true
 STRICT_ALIASING := true
 VALIDUS_CHANGELOG := false
-NO_BLOCK_OTA := false
+BLOCK_BASED_OTA := false
 
 
 # Releasetools
